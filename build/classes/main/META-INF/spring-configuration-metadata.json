@@ -1,0 +1,9 @@
+{
+  "groups": [{
+    "name": "upload.pictures",
+    "type": "masterSpringMVC.config.PictureUploadProperties",
+    "sourceType": "masterSpringMVC.config.PictureUploadProperties"
+  }],
+  "properties": [],
+  "hints": []
+}

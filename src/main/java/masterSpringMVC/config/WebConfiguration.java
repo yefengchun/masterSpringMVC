@@ -1,14 +1,20 @@
 package masterSpringMVC.config;
 
 import masterSpringMVC.date.USLocalDateFormatter;
+import org.springframework.boot.context.embedded.ConfigurableEmbeddedServletContainer;
+import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomizer;
+import org.springframework.boot.context.embedded.ErrorPage;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.format.FormatterRegistry;
+import org.springframework.web.multipart.MultipartException;
 import org.springframework.web.servlet.LocaleResolver;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.PathMatchConfigurer;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.i18n.LocaleChangeInterceptor;
 import org.springframework.web.servlet.i18n.SessionLocaleResolver;
+import org.springframework.web.util.UrlPathHelper;
 
 import java.time.LocalDate;
 import java.util.Locale;
@@ -70,7 +76,44 @@ public class WebConfiguration extends WebMvcConfigurerAdapter {
      * @param registry
      */
     @Override
-    public void addInterceptors(InterceptorRegistry registry) {
+    public void addInterceptors(InterceptorRegistry registry)
+    {
         registry.addInterceptor(localeChangeInterceptor());
+    }
+
+    @Bean
+    public EmbeddedServletContainerCustomizer containerCustomizer()
+    {
+        //java 7
+       /* EmbeddedServletContainerCustomizer embeddedServletContainerCustomizer
+                = new EmbeddedServletContainerCustomizer()
+        {
+            @Override
+            public void customize(ConfigurableEmbeddedServletContainer container)
+            {
+                container.addErrorPages(new ErrorPage(MultipartException.class, "/uploadError"));
+            }
+        };*/
+
+        //java 8
+       /* EmbeddedServletContainerCustomizer embeddedServletContainerCustomizer
+                = container -> container.addErrorPages(new
+                ErrorPage(MultipartException.class, "/uploadError"));
+        return embeddedServletContainerCustomizer;*/
+        return container -> container.addErrorPages(new
+                ErrorPage(MultipartException.class, "/uploadError"));
+
+    }
+
+    /**
+     * 默认SpringMVC不会放行拥有“，”的URL地址，所以我们需要设置false,可放行
+     * @param configurer
+     */
+    @Override
+    public void configurePathMatch(PathMatchConfigurer configurer)
+    {
+        UrlPathHelper urlPathHelper = new UrlPathHelper();
+        urlPathHelper.setRemoveSemicolonContent(false);
+        configurer.setUrlPathHelper(urlPathHelper);
     }
 }

@@ -36,9 +36,10 @@ dependencies {
 
 	compile ('org.webjars:materializecss:0.96.0')
 	compile ('org.webjars:jquery:2.1.4')
+	compile('org.springframework.boot:spring-boot-configuration-processor')
 	testCompile('org.springframework.boot:spring-boot-starter-test') 
 }
-
+compileJava.dependsOn(processResources)
 
 eclipse {
 	classpath {

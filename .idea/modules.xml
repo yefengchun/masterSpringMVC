@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/masterSpringMVC4_assemble.iml" filepath="$PROJECT_DIR$/masterSpringMVC4_assemble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/masterSpringMVC5.iml" filepath="$PROJECT_DIR$/masterSpringMVC5.iml" />
     </modules>
   </component>
 </project>

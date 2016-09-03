@@ -18,6 +18,7 @@ import java.time.LocalDate;
 @Constraint(validatedBy = PastLocalDate.PastValidator.class)
 @Documented
 public @interface PastLocalDate {
+    String message() default "{javax.validation.constraints.Past.message}";
     Class<?>[] groups() default {};
 
     Class<? extends Payload>[] payload() default{};
@@ -30,8 +31,7 @@ public @interface PastLocalDate {
         //判断日期是否是空或是否是过去的
         public boolean isValid(LocalDate localDate,
                                ConstraintValidatorContext context) {
-            return localDate == null || localDate.isBefore(LocalDate.
-                    now());
+            return localDate == null || localDate.isBefore(LocalDate.now());
         }
     }
 

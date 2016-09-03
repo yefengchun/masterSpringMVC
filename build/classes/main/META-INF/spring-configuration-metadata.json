@@ -4,17 +4,6 @@
     "type": "masterSpringMVC.config.PictureUploadProperties",
     "sourceType": "masterSpringMVC.config.PictureUploadProperties"
   }],
-  "properties": [
-    {
-      "name": "upload.pictures.anonymous-picture",
-      "type": "org.springframework.core.io.Resource",
-      "sourceType": "masterSpringMVC.config.PictureUploadProperties"
-    },
-    {
-      "name": "upload.pictures.upload-path",
-      "type": "org.springframework.core.io.Resource",
-      "sourceType": "masterSpringMVC.config.PictureUploadProperties"
-    }
-  ],
+  "properties": [],
   "hints": []
 }

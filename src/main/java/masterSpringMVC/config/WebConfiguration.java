@@ -33,7 +33,8 @@ public class WebConfiguration extends WebMvcConfigurerAdapter {
      * @param registry
      */
     @Override
-    public void addFormatters(FormatterRegistry registry) {
+    public void addFormatters(FormatterRegistry registry)
+    {
         registry.addFormatterForFieldType(LocalDate.class, new USLocalDateFormatter());
     }
 

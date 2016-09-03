@@ -32,8 +32,8 @@ public class ProfileController {
 
     /**
      * 信息提交的处理
-     * @param profileForm
-     * @param bindingResult
+     * @param profileForm 实体
+     * @param bindingResult  返回结果情况如何，如果有错，不希望使用，而是跳转错误页面
      * @return
      */
     @RequestMapping(value="/profile", params = {"save"}, method = RequestMethod.POST)
@@ -45,7 +45,7 @@ public class ProfileController {
             return "profile/profilePage";
         }
         userProfileSession.saveForm(profileForm);
-        return "redirect:/profile";
+        return "redirect:/search/mixed;keywords=" + String.join(",", profileForm.getTastes());
 
     }
 

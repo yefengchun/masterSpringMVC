@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cc79e38-f6cb-4a18-81f5-b622eb4ca4cd" name="Default" comment="" />
-    <ignored path="masterSpringMVC_chapter4.iws" />
+    <list default="true" id="f545c503-ae09-4306-ad6c-0552a1937eaa" name="Default" comment="" />
+    <ignored path="masterSpringMVC4_assemble.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -19,13 +19,6 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DatabaseView">
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -35,23 +28,102 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="masterSpringMVC4_assemble" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+            </PATH>
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="masterSpringMVC_chapter4" />
+    <favorites_list name="masterSpringMVC4_assemble" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="profilePage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile/profilePage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.764706">
+              <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MasterSpringMvcApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/MasterSpringMvcApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33783785">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProfileController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/ProfileController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/controller/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#688#689#0" expanded="false" />
+                <element signature="e#748#749#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PictureUploadProperties.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/config/PictureUploadProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#667#668#0" expanded="false" />
+                <element signature="e#700#701#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="PictureUploadController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/PictureUploadController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="82" column="52" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,8 +131,8 @@
       <file leaf-file-name="messages.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.8">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -69,44 +141,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PictureUploadProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/config/PictureUploadProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.642857">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-              <folding>
-                <element signature="e#785#786#0" expanded="true" />
-                <element signature="e#829#830#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/search/SearchController.java">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uploadPage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile/uploadPage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MasterSprigMvcApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/MasterSprigMvcApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33783785">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="63" />
+              <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -116,68 +155,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/UserProfileSession.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/search/SearchService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfileController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/ProfileController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="92" column="46" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#873#874#0" expanded="false" />
-                <element signature="e#917#918#0" expanded="false" />
-                <element signature="e#2319#2320#0" expanded="false" />
-                <element signature="e#2381#2382#0" expanded="false" />
-                <element signature="e#2602#2603#0" expanded="false" />
-                <element signature="e#2652#2653#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfileForm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/ProfileForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#729#730#0" expanded="false" />
-                <element signature="e#765#766#0" expanded="false" />
-                <element signature="e#823#824#0" expanded="false" />
-                <element signature="e#873#874#0" expanded="false" />
-                <element signature="e#905#906#0" expanded="false" />
-                <element signature="e#933#934#0" expanded="false" />
-                <element signature="e#975#976#0" expanded="false" />
-                <element signature="e#1009#1010#0" expanded="false" />
-                <element signature="e#1048#1049#0" expanded="false" />
-                <element signature="e#1080#1081#0" expanded="false" />
-                <element signature="e#1133#1134#0" expanded="false" />
-                <element signature="e#1175#1176#0" expanded="false" />
-                <element signature="e#1214#1215#0" expanded="false" />
-                <element signature="e#1243#1244#0" expanded="false" />
-                <element signature="e#1293#1294#0" expanded="false" />
-                <element signature="e#1329#1330#0" expanded="false" />
-              </folding>
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -187,13 +166,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -201,14 +176,14 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="masterSpringMVC_chapter4" />
+              <option name="name" value="masterSpringMVC4_assemble" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="masterSpringMVC_chapter4" />
+                <option name="name" value="masterSpringMVC4_assemble" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
             </list>
@@ -247,7 +222,7 @@
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'masterSpringMVC_chapter4'." />
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'masterSpringMVC4_assemble'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
@@ -299,17 +274,17 @@
                 <option name="name" value="compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'masterSpringMVC_chapter4'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'masterSpringMVC4_assemble'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'masterSpringMVC_chapter4'." />
+                <option name="description" value="Displays all dependencies declared in root project 'masterSpringMVC4_assemble'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'masterSpringMVC_chapter4'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'masterSpringMVC4_assemble'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -362,7 +337,7 @@
                 <option name="name" value="javadoc" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'masterSpringMVC_chapter4'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'masterSpringMVC4_assemble'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
@@ -377,17 +352,17 @@
                 <option name="name" value="processTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'masterSpringMVC_chapter4'." />
+                <option name="description" value="Displays the sub-projects of root project 'masterSpringMVC4_assemble'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'masterSpringMVC_chapter4'." />
+                <option name="description" value="Displays the properties of root project 'masterSpringMVC4_assemble'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'masterSpringMVC_chapter4'." />
+                <option name="description" value="Displays the tasks runnable from root project 'masterSpringMVC4_assemble'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -418,9 +393,10 @@
         <entry key="$PROJECT_DIR$/../SpringMVC4" value="1462976943573" />
         <entry key="$PROJECT_DIR$/../demo" value="1463137479222" />
         <entry key="$PROJECT_DIR$/../masterSpringMVC" value="1463142186822" />
+        <entry key="$PROJECT_DIR$" value="1463660564843" />
         <entry key="$PROJECT_DIR$/../masterSpringMVC_03" value="1463305251383" />
         <entry key="$PROJECT_DIR$/../masterSpringMVC_chapter3" value="1463305947438" />
-        <entry key="$PROJECT_DIR$" value="1463489183489" />
+        <entry key="$PROJECT_DIR$/../masterSpringMVC_chapter4" value="1463436308447" />
         <entry key="$PROJECT_DIR$/../masterSpringMvc" value="1463096700756" />
         <entry key="$PROJECT_DIR$/../masterSpringmvc" value="1463091239361" />
       </map>
@@ -554,126 +530,69 @@
                   </entry>
                 </map>
               </option>
-              <option name="name" value="masterSpringMVC_chapter4" />
+              <option name="name" value="masterSpringMVC4_assemble" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/announce" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/antlr" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/base-services" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/base-services-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/build-comparison" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/build-init" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/cli" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/code-quality" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/core" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/dependency-management" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/diagnostics" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/ear" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/ide" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/ide-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/internal-integ-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/internal-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/ivy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/jacoco" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/javascript" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/jetty" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/language-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/language-java" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/language-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/language-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/language-scala" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/launcher" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/maven" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/messaging" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/model-core" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/model-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/open-api" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/osgi" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/platform-base" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/platform-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/platform-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/platform-play" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/plugin-development" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/plugin-use" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/plugins" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/publish" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/reporting" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/resources" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/resources-http" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/resources-s3" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/resources-sftp" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/scala" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/signing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/sonar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/test-kit" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/testing-base" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/testing-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/testing-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/tooling-api" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/tooling-api-builders" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/ui" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/src/wrapper" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/ant-1.9.3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/ant-launcher-1.9.3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/gradle-base-services-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/gradle-base-services-groovy-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/gradle-cli-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/gradle-core-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/gradle-docs-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/gradle-launcher-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/gradle-messaging-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/gradle-model-core-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/gradle-model-groovy-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/gradle-native-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/gradle-open-api-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/gradle-resources-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/gradle-tooling-api-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/gradle-ui-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/gradle-wrapper-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/groovy-all-2.4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-announce-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-antlr-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-build-comparison-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-build-init-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-code-quality-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-dependency-management-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-diagnostics-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-ear-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-ide-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-ide-native-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-ivy-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-jacoco-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-javascript-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-jetty-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-language-groovy-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-language-java-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-language-jvm-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-language-native-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-language-scala-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-maven-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-osgi-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-platform-base-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-platform-jvm-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-platform-native-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-platform-play-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-plugin-development-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-plugin-use-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-plugins-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-publish-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-reporting-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-resources-http-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-resources-s3-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-resources-sftp-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-scala-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-signing-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-sonar-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-test-kit-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-testing-base-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-testing-jvm-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-testing-native-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/gradle-tooling-api-builders-2.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-all/8ywkdai6puj5z81fume4e7njw/gradle-2.12/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/ant-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/ant-launcher-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/gradle-base-services-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/gradle-base-services-groovy-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/gradle-cli-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/gradle-core-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/gradle-docs-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/gradle-launcher-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/gradle-messaging-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/gradle-model-core-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/gradle-model-groovy-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/gradle-native-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/gradle-open-api-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/gradle-resources-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/gradle-tooling-api-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/gradle-ui-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/gradle-wrapper-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/groovy-all-2.4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-announce-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-antlr-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-build-comparison-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-build-init-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-code-quality-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-dependency-management-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-diagnostics-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-ear-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-ide-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-ide-native-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-ivy-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-jacoco-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-javascript-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-jetty-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-language-groovy-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-language-java-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-language-jvm-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-language-native-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-language-scala-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-maven-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-osgi-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-platform-base-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-platform-jvm-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-platform-native-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-platform-play-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-plugin-development-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-plugin-use-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-plugins-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-publish-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-reporting-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-resources-http-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-resources-s3-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-resources-sftp-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-scala-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-signing-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-sonar-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-test-kit-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-testing-base-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-testing-jvm-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-testing-native-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/gradle-tooling-api-builders-2.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/avhnk0p45wmm16bas931at19r/gradle-2.12/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -691,19 +610,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/masterSpringMVC/MasterSprigMvcApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/masterSpringMVC/config/PictureUploadProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/masterSpringMVC/MasterSpringMvcApplication.java" />
         <option value="$PROJECT_DIR$/src/main/resources/messages.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/messages_fr.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/masterSpringMVC/config/WebConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/masterSpringMVC/date/PastLocalDate.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/profile/profilePage.html" />
         <option value="$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/UserProfileSession.java" />
         <option value="$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/ProfileController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/error.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/profile/uploadPage.html" />
-        <option value="$PROJECT_DIR$/src/main/java/masterSpringMVC/search/SearchController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/masterSpringMVC/search/SearchService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/masterSpringMVC/config/PictureUploadProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/masterSpringMVC/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/PictureUploadController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/masterSpringMVC/config/WebConfiguration.java" />
       </list>
     </option>
   </component>
@@ -719,12 +636,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState />
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-141" />
+    <option name="y" value="20" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -753,31 +667,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -787,11 +704,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -813,11 +730,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -835,11 +752,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -861,11 +778,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -891,11 +808,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -921,11 +838,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -947,41 +864,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="search" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1007,11 +894,41 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterSpringMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="date" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1037,11 +954,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="masterSpringMVC_chapter4" />
+              <option name="myItemId" value="masterSpringMVC4_assemble" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1067,32 +984,38 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="D:/itsoft/GitHub/sof/Githubdesktop" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="masterspringmvc4_assemble" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\workspace\masterSpringMVC_chapter4\src\main\resources\images" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Spring Boot.MasterSprigMvcApplication">
-    <configuration default="false" name="MasterSprigMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.MasterSpringMvcApplication">
+    <configuration default="false" name="build" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="masterSpringMVC4_assemble" />
+      <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method>
+        <option name="Make" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="false" name="MasterSpringMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="masterSpringMVC.MasterSprigMvcApplication" />
-      <module name="masterSpringMVC_chapter4" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="masterSpringMVC.MasterSpringMvcApplication" />
+      <module name="masterSpringMVC4_assemble" />
       <envs />
       <method />
     </configuration>
@@ -1337,6 +1260,15 @@
       <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1412,7 +1344,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="masterSpringMVC_chapter4" />
+      <module name="masterSpringMVC4_assemble" />
       <envs />
       <method />
     </configuration>
@@ -1518,12 +1450,14 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.MasterSprigMvcApplication" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Groovy.build" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.MasterSpringMvcApplication" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.MasterSprigMvcApplication" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.MasterSpringMvcApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Groovy.build" />
       </list>
     </recent_temporary>
   </component>
@@ -1533,58 +1467,53 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3cc79e38-f6cb-4a18-81f5-b622eb4ca4cd" name="Default" comment="" />
-      <created>1463436303023</created>
+      <changelist id="f545c503-ae09-4306-ad6c-0552a1937eaa" name="Default" comment="" />
+      <created>1463660264751</created>
       <option name="number" value="Default" />
-      <updated>1463436303023</updated>
-      <workItem from="1463436306432" duration="287000" />
-      <workItem from="1463436671479" duration="1264000" />
-      <workItem from="1463480600579" duration="16011000" />
-      <workItem from="1463523357883" duration="3898000" />
-      <workItem from="1463578731037" duration="3870000" />
-      <workItem from="1463608730719" duration="4576000" />
-      <workItem from="1463654570461" duration="985000" />
-      <workItem from="1463656596992" duration="3724000" />
-      <workItem from="1463695751770" duration="1834000" />
-      <workItem from="1463742601069" duration="6774000" />
-      <workItem from="1465026542528" duration="2092000" />
-      <workItem from="1465031675199" duration="4804000" />
+      <updated>1463660264751</updated>
+      <workItem from="1463660268062" duration="355000" />
+      <workItem from="1463660699094" duration="9457000" />
+      <workItem from="1463695506347" duration="2566000" />
+      <workItem from="1463742555017" duration="2618000" />
+      <workItem from="1463755560218" duration="2425000" />
+      <workItem from="1465024558057" duration="1241000" />
+      <workItem from="1465040389961" duration="2093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50119000" />
+    <option name="totallyTimeSpent" value="20755000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-141" y="20" width="1382" height="744" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08986928" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3480392" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22712418" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2753404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21187802" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.099673204" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32189542" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1599,9 +1528,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="18" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1609,53 +1536,26 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/UserProfileSession.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="11" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/PictureUploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.6.RELEASE/969d3b628a6b1e2d77bad07669539b27b35ce59a/spring-web-4.2.6.RELEASE-sources.jar!/org/springframework/web/multipart/support/StandardMultipartHttpServletRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="280" column="0" selection-start-line="280" selection-start-column="0" selection-end-line="280" selection-end-column="0" />
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile/profilePage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="34" column="62" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/config/PictureUploadProperties.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/MasterSpringMvcApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-          <folding>
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile/uploadPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1663,261 +1563,84 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/ProfileController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#873#874#0" expanded="false" />
-            <element signature="e#917#918#0" expanded="false" />
-            <element signature="e#2319#2320#0" expanded="false" />
-            <element signature="e#2381#2382#0" expanded="false" />
-            <element signature="e#2602#2603#0" expanded="false" />
-            <element signature="e#2652#2653#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/MasterSprigMvcApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#748#749#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/config/PictureUploadProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="11" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="11" />
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#667#668#0" expanded="false" />
+            <element signature="e#700#701#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/PictureUploadController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.6.RELEASE/969d3b628a6b1e2d77bad07669539b27b35ce59a/spring-web-4.2.6.RELEASE-sources.jar!/org/springframework/web/multipart/support/StandardMultipartHttpServletRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="280" column="0" selection-start-line="280" selection-start-column="0" selection-end-line="280" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile/profilePage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="177" column="1" selection-start-line="177" selection-start-column="1" selection-end-line="177" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/config/PictureUploadProperties.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile/uploadPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/ProfileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#873#874#0" expanded="false" />
-            <element signature="e#917#918#0" expanded="false" />
-            <element signature="e#2319#2320#0" expanded="false" />
-            <element signature="e#2381#2382#0" expanded="false" />
-            <element signature="e#2602#2603#0" expanded="false" />
-            <element signature="e#2652#2653#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/MasterSprigMvcApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/controller/TweetController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/config/WebConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/ProfileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#873#874#0" expanded="false" />
-            <element signature="e#917#918#0" expanded="false" />
-            <element signature="e#2319#2320#0" expanded="false" />
-            <element signature="e#2381#2382#0" expanded="false" />
-            <element signature="e#2602#2603#0" expanded="false" />
-            <element signature="e#2652#2653#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/controller/TweetController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.9411764">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pictures/.gitkeep">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.21/c565ca9c1239b38fe4a70e4101086c4e880f6358/jcl-over-slf4j-1.7.21-sources.jar!/org/apache/commons/logging/impl/SLF4JLocationAwareLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.263158">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.2.6.RELEASE/33f820095e1e3978f58ac47747e13f1f146ef69/spring-webmvc-4.2.6.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3608018">
-          <caret line="970" column="0" selection-start-line="970" selection-start-column="0" selection-end-line="970" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.2.6.RELEASE/33f820095e1e3978f58ac47747e13f1f146ef69/spring-webmvc-4.2.6.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3608018">
-          <caret line="832" column="0" selection-start-line="832" selection-start-column="0" selection-end-line="832" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.2.6.RELEASE/33f820095e1e3978f58ac47747e13f1f146ef69/spring-webmvc-4.2.6.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3608018">
-          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.6.RELEASE/969d3b628a6b1e2d77bad07669539b27b35ce59a/spring-web-4.2.6.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38752785">
-          <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.2.6.RELEASE/a0cfb8efd8bd579fc95405782cd0440a514eb6ae/spring-beans-4.2.6.RELEASE-sources.jar!/org/springframework/beans/BeanUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47151276">
-          <caret line="145" column="49" selection-start-line="145" selection-start-column="12" selection-end-line="145" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="11" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/itsoft/jdk1.8.65/install/jre/lib/rt.jar!/sun/nio/ch/ServerSocketChannelImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24835165">
-          <caret line="375" column="23" selection-start-line="375" selection-start-column="23" selection-end-line="375" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.6.RELEASE/969d3b628a6b1e2d77bad07669539b27b35ce59a/spring-web-4.2.6.RELEASE-sources.jar!/org/springframework/web/multipart/support/StandardMultipartHttpServletRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.042881645">
-          <caret line="280" column="0" selection-start-line="280" selection-start-column="0" selection-end-line="280" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_fr.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="ResourceBundle">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/ProfileForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/UserProfileSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile/profilePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="62" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="62" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error.html">
@@ -1927,69 +1650,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile/profilePage.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/MasterSpringMvcApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.6.RELEASE/969d3b628a6b1e2d77bad07669539b27b35ce59a/spring-web-4.2.6.RELEASE-sources.jar!/org/springframework/web/multipart/MultipartFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4442538">
-          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/config/WebConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="98" column="63" selection-start-line="98" selection-start-column="63" selection-end-line="98" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/ProfileForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#729#730#0" expanded="false" />
-            <element signature="e#765#766#0" expanded="false" />
-            <element signature="e#823#824#0" expanded="false" />
-            <element signature="e#873#874#0" expanded="false" />
-            <element signature="e#905#906#0" expanded="false" />
-            <element signature="e#933#934#0" expanded="false" />
-            <element signature="e#975#976#0" expanded="false" />
-            <element signature="e#1009#1010#0" expanded="false" />
-            <element signature="e#1048#1049#0" expanded="false" />
-            <element signature="e#1080#1081#0" expanded="false" />
-            <element signature="e#1133#1134#0" expanded="false" />
-            <element signature="e#1175#1176#0" expanded="false" />
-            <element signature="e#1214#1215#0" expanded="false" />
-            <element signature="e#1243#1244#0" expanded="false" />
-            <element signature="e#1293#1294#0" expanded="false" />
-            <element signature="e#1329#1330#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/UserProfileSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile/uploadPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1997,23 +1661,240 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/ProfileController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="46" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/config/PictureUploadProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#873#874#0" expanded="false" />
-            <element signature="e#917#918#0" expanded="false" />
-            <element signature="e#2319#2320#0" expanded="false" />
-            <element signature="e#2381#2382#0" expanded="false" />
-            <element signature="e#2602#2603#0" expanded="false" />
-            <element signature="e#2652#2653#0" expanded="false" />
+            <element signature="e#667#668#0" expanded="false" />
+            <element signature="e#700#701#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/PictureUploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="162" column="50" selection-start-line="162" selection-start-column="50" selection-end-line="162" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.8">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/ProfileForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/UserProfileSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile/profilePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="62" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/MasterSpringMvcApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/ProfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/config/PictureUploadProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#667#668#0" expanded="false" />
+            <element signature="e#700#701#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/PictureUploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/ProfileForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/UserProfileSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/search/SearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/MasterSpringMvcApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/search/SearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_fr.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/config/WebConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="113" column="20" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/date/USLocalDateFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/date/PastLocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="69" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/ProfileForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -2023,47 +1904,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/config/PictureUploadProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.642857">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#667#668#0" expanded="false" />
+            <element signature="e#700#701#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/search/SearchController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#748#749#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/ProfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/search/SearchService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile/profilePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.764706">
+          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/UserProfileSession.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/profile/PictureUploadController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="82" column="52" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/MasterSprigMvcApplication.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/masterSpringMVC/MasterSpringMvcApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33783785">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="63" />
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -2120,7 +2026,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>masterSpringMVC_chapter4</last-edited>
+          <last-edited>masterSpringMVC4_assemble</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

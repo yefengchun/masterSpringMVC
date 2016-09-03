@@ -29,59 +29,58 @@ import java.util.Locale;
 /**
  * 文件上传刷新处理逻辑
  * Created by OwenWilliam on 2016/5/17.
- * the model attributes will be reset,so add @SessionAttributes("picturePath")
  */
 
 @Controller
 @SessionAttributes("picturePath")
 public class PictureUploadController {
 
-   // public static final Resource PICTURES_DIR = new FileSystemResource("./pictures");
-
     private final Resource picturesDir;
     private final Resource anonymousPicture;
 
     private final MessageSource messageSource;
+    private final UserProfileSession userProfileSession;
 
     /**
      * 自动获取picturesDir和annonymouspicture
      * @param uploadProperties
      */
     @Autowired
-    public PictureUploadController(PictureUploadProperties uploadProperties, MessageSource messageSource)
+    public PictureUploadController(PictureUploadProperties uploadProperties, MessageSource messageSource, UserProfileSession userProfileSession)
     {
         picturesDir = uploadProperties.getUploadPath();
         anonymousPicture = uploadProperties.getAnonymousPicture();
         this.messageSource = messageSource;
+        this.userProfileSession = userProfileSession;
     }
-    @RequestMapping("upload")
+ /*   @RequestMapping("upload")
     public String uploadPage()
     {
         return "profile/uploadPage";
     }
-
+*/
     /**
      * 上传图片
      * @param file
      * @param redirectAttributes
-     * @param model
      * @return
      * @throws IOException
      */
-    @RequestMapping(value = "/upload", method = RequestMethod.POST)
-    public String onUpload(MultipartFile file, RedirectAttributes redirectAttributes, Model model) throws IOException
+    @RequestMapping(value = "/profile", params = {"upload"}, method = RequestMethod.POST)
+    public String onUpload(@RequestParam MultipartFile file, RedirectAttributes redirectAttributes) throws IOException
     {
        // throw new IOException("Some Message");
         if (file.isEmpty() || !isImage(file))
         {
             redirectAttributes.addFlashAttribute("error", "Incorrect file.Please upload a picture.");
-            return "redirect:/upload";
+            return "redirect:/profile";
         }
 
         Resource picturePath =  copyFileToPictures(file);
+        userProfileSession.setPicturePath(picturePath);
         //文件的路径放到session中
-        model.addAttribute("picturePath", picturePath);
-        return "profile/uploadPage";
+       // model.addAttribute("picturePath", picturePath);
+        return "redirect:profile";
         }
 
     /**
@@ -108,26 +107,20 @@ public class PictureUploadController {
     /**
      * 刷新显示图片
      * @param response
-     * @param picturePath
      * @throws IOException
      */
     @RequestMapping(value = "/uploadedPicture")
-    public void getUploadedPicture(HttpServletResponse response, @ModelAttribute("picturePath") Resource picturePath) throws
+    public void getUploadedPicture(HttpServletResponse response) throws
             IOException {
-      /*  ClassPathResource classPathResource = new ClassPathResource("/images/anonymous.png");
-                response.setHeader("Content-Type", URLConnection.guessContentTypeFromName(classPathResource.getFilename()));
-        IOUtils.copy(classPathResource.getInputStream(), response.
-                getOutputStream());
-                IOUtils.copy(anonymousPicture.getInputStream(), response.getOutputStream());
-        */
-        // the code will display erro,because the Path should not like this use.
-        /**the function paramer like : @ModelAttribute("picturePath") Path picturePath
-         *  response.setHeader("Content-Type", URLConnection.guessContentTypeFromName(picturePath.toString()));
-         *  Files.copy(picturePath, response.getOutputStream());
-         */
+        Resource picturePath = userProfileSession.getPicturePath();
+        if (picturePath == null)
+        {
+            picturePath = anonymousPicture;
+        }
         response.setHeader("Content-Type", URLConnection.guessContentTypeFromName(picturePath.toString()));
-        Path path = Paths.get(picturePath.getURI());
-        Files.copy(path, response.getOutputStream());
+      //  Path path = Paths.get(picturePath.getURI());
+     //   Files.copy(path, response.getOutputStream());
+        IOUtils.copy(picturePath.getInputStream(), response.getOutputStream());
 
     }
 
@@ -165,18 +158,20 @@ public class PictureUploadController {
     @ExceptionHandler(IOException.class)
     public ModelAndView handleIOException(Locale locale)
     {
-        ModelAndView modelAndView = new ModelAndView("profile/uploadPage");
+        ModelAndView modelAndView = new ModelAndView("profile/profilePage");
        // modelAndView.addObject("error", exception.getMessage());
         modelAndView.addObject("error",messageSource.getMessage("upload.io.exception", null, locale));
+        modelAndView.addObject("profileForm", userProfileSession.toForm());
         return modelAndView;
     }
 
     @RequestMapping("uploadError")
     public ModelAndView onUploadError(Locale locale)
     {
-        ModelAndView modelAndView = new ModelAndView("profile/uploadPage");
+        ModelAndView modelAndView = new ModelAndView("profile/profilePage");
      //   modelAndView.addObject("error", request.getAttribute(WebUtils.ERROR_MESSAGE_ATTRIBUTE));
         modelAndView.addObject("error", messageSource.getMessage("upload.file.too.big", null, locale));
+        modelAndView.addObject("profileForm", userProfileSession.toForm());
         return modelAndView;
     }
 

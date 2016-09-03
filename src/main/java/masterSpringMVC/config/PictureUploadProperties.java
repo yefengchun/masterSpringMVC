@@ -2,8 +2,9 @@ package masterSpringMVC.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.core.io.DefaultResourceLoader;
-import org.springframework.core.io.DescriptiveResource;
 import org.springframework.core.io.Resource;
+
+import java.io.IOException;
 
 /**
  * 从application.properties的文件中获取资源。
@@ -22,9 +23,12 @@ public class PictureUploadProperties {
         return uploadPath;
     }
 
-    public void setUploadPath(Resource uploadPath)
+    public void setUploadPath(String uploadPath)  throws IOException
     {
-        this.uploadPath = uploadPath;
+        this.uploadPath = new DefaultResourceLoader().getResource(uploadPath);
+        if (!this.uploadPath.getFile().isDirectory()) {
+            throw new IOException("Directory " + uploadPath + " does not exist");
+        }
     }
 
     public Resource getAnonymousPicture()
@@ -32,8 +36,11 @@ public class PictureUploadProperties {
         return anonymousPicture;
     }
 
-    public void setAnonymousPicture(Resource anonymousPicture) {
-        this.anonymousPicture = anonymousPicture;
+    public void setAnonymousPicture(String anonymousPicture) throws IOException {
+        this.anonymousPicture = new DefaultResourceLoader().getResource(anonymousPicture);
+        if (!this.anonymousPicture.getFile().isFile()) {
+            throw new IOException("File " + anonymousPicture + " does not exist");
+        }
     }
 
 

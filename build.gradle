@@ -10,6 +10,15 @@ buildscript {
 		classpath("io.spring.gradle:dependency-management-plugin:0.5.1.RELEASE")
 	}
 }
+	configurations {
+		testCompile {
+			exclude module: 'selenium-safari-driver'
+			exclude module: 'selenium-ie-driver'
+			exclude module: 'selenium-firefox-driver'
+			exclude module: 'selenium-htmlunit-driver'
+			exclude module: 'selenium-chrome-driver'
+		}
+}
 
 apply plugin: 'java'
 apply plugin: 'eclipse'
@@ -45,6 +54,11 @@ dependencies {
 	compile ('org.springframework.session:spring-session:1.0.1.RELEASE')
 	compile('io.springfox:springfox-swagger2:2.1.2')
 	compile('io.springfox:springfox-swagger-ui:2.1.2')
+	testCompile ('org.fluentlenium:fluentlenium-assertj:0.10.3')
+	testCompile ('com.codeborne:phantomjsdriver:1.2.1')
+	testCompile ('org.seleniumhq.selenium:selenium-java:2.45.0')
+	testCompile ('org.assertj:assertj-core:3.0.0')
+	testCompile ('com.jayway.jsonpath:json-path')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 compileJava.dependsOn(processResources)
@@ -57,4 +71,21 @@ eclipse {
 }
 task wrapper(type: Wrapper) {
 	gradleVersion = '2.8'
+}
+
+configurations {
+	integrationTestCompile.extendsFrom testCompile
+	integrationTestRuntime.extendsFrom testRuntime
+}
+sourceSets {
+	integrationTest {
+		compileClasspath += main.output + test.output
+		runtimeClasspath += main.output + test.output
+	}
+}
+
+task integrationTest(type: Test) {
+	testClassesDir = sourceSets.integrationTest.output.classesDir
+	classpath = sourceSets.integrationTest.runtimeClasspath
+	reports.html.destination = file("${reporting.baseDir}/integrationTests")
 }
